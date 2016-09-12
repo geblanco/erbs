@@ -1,0 +1,33 @@
+{
+  "name": "erbs",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Backbone Storage Adapter for Electron Router",
+  "author": "Guillermo Blanco",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m0n0l0c0/erbs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m0n0l0c0/erbs/issues",
+    "email": "guillermoechegoyenblanco@gmail.com"
+  },
+  "main": "routerStorage.js",
+  "dependencies": {
+    "electron-router": "^0.3.1"
+  },
+  "devDependencies": {
+    "standard": "^8.0.0"
+  },
+  "keywords": [
+    "backbone",
+    "storage",
+    "electron",
+    "router",
+    "mvc",
+    "callback"
+  ],
+  "scripts": {
+    "prepublish": "standard"
+  }
+}
