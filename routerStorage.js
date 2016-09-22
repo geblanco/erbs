@@ -81,4 +81,6 @@
 
     return this
   }
+
+  return router
 }))
