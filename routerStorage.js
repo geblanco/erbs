@@ -45,10 +45,8 @@
     if (payload.req) {
       req = payload.req
     }
-    if (payload.data) {
+    if (payload.data !== null && payload.data !== undefined ) {
       payload = payload.data
-    } else {
-      payload = model.attributes || payload.req
     }
 
     if (method === 'read' || method === 'patch') {
